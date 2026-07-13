@@ -25,10 +25,10 @@ end
 class Vigil < Formula
   desc "Vigil ground station console: CLI, control-plane API, and operator UI"
   homepage "https://github.com/VigilAutonomy/vigil"
-  version "0.25.2"
-  url "https://dl.vigilautonomy.com/macos/vigil-0.25.2-darwin-arm64.tar.gz",
+  version "0.26.0"
+  url "https://dl.vigilautonomy.com/macos/vigil-0.26.0-darwin-arm64.tar.gz",
       using: VigilPayloadDownloadStrategy
-  sha256 "b4275f42fa6dc9ae1c1a9f4a12ff8be63a0afe606c9b1a571840a579e0ac17f1"
+  sha256 "a7062c305eb997d3e151d608ba68bb8cc8ef66491d5156996c99a738a0796832"
   license :cannot_represent
 
   depends_on arch: :arm64
